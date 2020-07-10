@@ -9,7 +9,7 @@ end
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   num = 1 
-  array.each do |num|
+  array.each do |array|
     puts "#{num}.*#{array}"
     num += 1
   end
